@@ -33,5 +33,5 @@ plt.savefig(figname)
 f = wunlatex.components.Figure("Test Fig", path=figname)
 doc.add_component(f)
 
-doc.compile(Path(__file__).parent, filename="Testpdf.pdf")
+doc.compile(Path(__file__).parent, filename="Testpdf")
 ```
